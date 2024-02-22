@@ -1,4 +1,4 @@
-## Case 1: Stock Price Forecaster
+# Case 1: Stock Price Forecaster
 
 - **Timeline:** January 2024 - February 2024
 - **Creator:** Adam Cersosimo
@@ -21,7 +21,7 @@ This project involves creating an Exponential Smoothing State Space Model (ETS) 
    - Despite the inherent challenges in predicting stock prices accurately, the model demonstrated an ability to identify the general direction of stock price movements
    - MSE was substantially higher for certain stocks which could be attributed to randomness or a higher volatility in the stock
 
-# Restaurant Star Ratings Predictor
+# Case 2: Restaurant Star Ratings Predictor
 
 - **Timeline:** January 2024 - February 2024
 - **Creator:** Adam Cersosimo
