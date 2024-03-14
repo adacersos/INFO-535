@@ -34,7 +34,7 @@ This project serves as a predictor for restaurant star ratings in Binghamton, Ne
 
 ### Data Acquisition
 
-- Downloaded 200,000 rows of business data from Yelp, describing each business with various characteristics, including star rating, review count, business name, attributes, categories, and more. However, I could only use 5000 rows due to the lack of computational capability at my disposal
+- Downloaded 200,000 rows of business data from Yelp, describing each business with various characteristics, including star rating, review count, business name, attributes, categories, and more. However, I could only use 10000 rows due to the lack of computational capability at my disposal
 - The attribute section contains a dictionary listing characteristics such as "parking: yes" or "dress attire: formal."
 - The category section is a string representing different business categories.
 
