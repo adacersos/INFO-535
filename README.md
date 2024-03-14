@@ -62,3 +62,39 @@ This project serves as a predictor for restaurant star ratings in Binghamton, Ne
 
 - The scatterplot demonstrates the model's tendency to overproject low-star restaurants and underproject high-star restaurants.
 - The model consistently predicts values in the 3-4 range, indicating a safe approach but still offering a reasonable estimate.
+
+# Movie Review Sentiment Analysis
+
+## Overview
+
+This project predicts the sentiment of movie reviews using machine learning techniques. The dataset consists of 50,000 movie reviews labeled as "Positive" or "Negative".
+
+## Project Details
+### Data Exploration
+
+- Loaded the dataset using Pandas.
+- Inspected the data structure and identified two columns: 'review' and 'sentiment'.
+- Removed duplicate reviews and ensured an even distribution of positive and negative sentiments.
+
+### Data Preprocessing
+
+- Cleaned the review text by removing punctuation and converting to lowercase.
+- Tokenized the reviews and removed stop words using NLTK.
+- Applied stemming to reduce words to their base form.
+- Transformed the text data into numerical features using Word2Vec embeddings.
+
+### Modeling
+
+- Explored various machine learning models:
+  - Logistic Regression
+  - Linear Support Vector Classifier
+  - K-Nearest Neighbors
+  - Neural Networks
+  - Convolutional Neural Networks
+- Evaluated model performances and selected the best-performing models based on accuracy.
+- Explored visualization techniques like confusion matrices and ROC curves for model evaluation.
+
+### Conclusion
+
+- Achieved reasonable accuracy with all models.
+- Logistic Regression and Linear Support Vector Classifier performed the best.
