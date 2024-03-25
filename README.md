@@ -63,7 +63,7 @@ This project serves as a predictor for restaurant star ratings in Binghamton, Ne
 - The scatterplot demonstrates the model's tendency to overproject low-star restaurants and underproject high-star restaurants.
 - The model consistently predicts values in the 3-4 range, indicating a safe approach but still offering a reasonable estimate.
 
-# Project 1: Movie Review Sentiment Analysis
+# Movie Review Sentiment Analysis
 
 ## Overview
 
